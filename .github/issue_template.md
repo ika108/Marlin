@@ -1,6 +1,6 @@
-<!--
+# NO SUPPORT REQUESTS PLEASE
 
-Have you read Marlin's Code of Conduct? By filing an Issue, you are expected to comply with it, including treating everyone with respect: https://github.com/MarlinFirmware/Marlin/blob/bugfix-2.0.x/.github/code_of_conduct.md
+Support Requests posted here will be automatically closed!
 
 Do you want to ask a question? Are you looking for support? Please don't post here. Instead use one of the following options:
 
@@ -12,24 +12,4 @@ Before filing an issue be sure to test the latest "bugfix" branch to see whether
 
 -->
 
-### Description
-
-<!-- Description of the bug or requested feature -->
-
-### Steps to Reproduce
-
-<!-- If this is a Bug Report, please describe the steps needed to reproduce the issue -->
-
-1. [First Step]
-2. [Second Step]
-3. [and so on...]
-
-**Expected behavior:** [What you expect to happen]
-
-**Actual behavior:** [What actually happens]
-
-#### Additional Information
-
-* Include a ZIP file containing your `Configuration.h` and `Configuration_adv.h` files.
-* Provide pictures or links to videos that clearly demonstrate the issue.
-* See [How Can I Contribute](#how-can-i-contribute) for additional guidelines.
+After seeking help from the community, if the consensus points to to a bug in Marlin, then you should post a Bug Report at https://github.com/MarlinFirmware/Marlin/issues/new/choose).
