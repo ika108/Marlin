@@ -2173,9 +2173,9 @@ static_assert(hbm[Z_AXIS] >= 0, "HOMING_BUMP_MM.Z must be greater than or equal 
 #endif
 
 /**
- * emergency-command parser
+ * Emergency Command Parser
  */
-#if ENABLED(EMERGENCY_PARSER) && defined(__AVR__) && defined(USBCON)
+#if BOTH(IS_AT90USB, EMERGENCY_PARSER)
   #error "EMERGENCY_PARSER does not work on boards with AT90USB processors (USBCON)."
 #endif
 

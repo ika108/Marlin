@@ -55,7 +55,7 @@ void GcodeSuite::M111() {
   }
   else {
     SERIAL_ECHOPGM(STR_DEBUG_OFF);
-    #if !defined(__AVR__) || !defined(USBCON)
+    #if !IS_AT90USB
       #if ENABLED(SERIAL_STATS_RX_BUFFER_OVERRUNS)
         SERIAL_ECHOPAIR("\nBuffer Overruns: ", MYSERIAL0.buffer_overruns());
       #endif
