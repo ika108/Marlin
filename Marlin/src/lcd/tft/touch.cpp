@@ -51,6 +51,9 @@ TouchControlType  Touch::touch_control_type = NONE;
 #if HAS_RESUME_CONTINUE
   extern bool wait_for_user;
 #endif
+#if HAS_RESUME_CONTINUE
+  extern bool wait_for_user;
+#endif
 
 void Touch::init() {
   TERN_(TOUCH_SCREEN_CALIBRATION, touch_calibration.calibration_reset());
