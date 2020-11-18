@@ -1,3 +1,4 @@
+
 /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -80,6 +81,17 @@
 #endif
 #ifndef E1_SERIAL_RX_PIN
   #define E1_SERIAL_RX_PIN                    12
+#endif
+
+#ifndef Z2_SERIAL_TX_PIN
+#define Z2_SERIAL_TX_PIN 20
+#endif
+#ifndef Z2_SERIAL_RX_PIN
+#define Z2_SERIAL_RX_PIN 21
+#endif
+
+#ifndef FIL_RUNOUT_PIN
+  #define FIL_RUNOUT_PIN                      SERVO3_PIN
 #endif
 
 #include "pins_RAMPS.h"
